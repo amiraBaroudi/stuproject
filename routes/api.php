@@ -22,7 +22,7 @@ use App\Http\Controllers\StatisticController;
 |
 */
 
-// عرض جميع السائقين
+// عرض جميع السائقين.............
 Route::get('drivers', [DriverController::class, 'index']);
 // إنشاء سائق جديد
 Route::post('drivers', [DriverController::class, 'store']);
